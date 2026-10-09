@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desenvolvimento Web - Semana 04</title>
+  <style>
+    body { font-family: sans-serif; max-width: 600px; margin: 30px auto; padding: 0 15px; }
+    .destaque { font-weight: bold; color: #0056b3; }
+    .feito { text-decoration: line-through; color: #777; }
+    section { margin-bottom: 25px; padding-bottom: 15px; border-bottom: 1px solid #ddd; }
+    input { padding: 6px; margin-right: 6px; }
+    button { padding: 6px 12px; cursor: pointer; }
+    ul { cursor: pointer; }
+  </style>
+</head>
+<body>
+
+  <h1 id="titulo">Título Inicial</h1>
+
+  <section>
+    <p class="texto">Primeiro parágrafo de apresentação.</p>
+    <p class="texto">Segundo parágrafo com informações adicionais.</p>
+  </section>
+
+  <section>
+    <button id="botao">Passe o mouse aqui</button>
+    <br><br>
+    <input type="text" id="nome" placeholder="Digite seu nome">
+  </section>
+
+  <section>
+    <h2>Lista de Tarefas</h2>
+    <ul id="lista">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+
+    <form id="formulario">
+      <input type="text" id="tarefa" placeholder="Nova tarefa">
+      <button type="submit">Adicionar</button>
+    </form>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
